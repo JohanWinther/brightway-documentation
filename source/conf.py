@@ -16,8 +16,6 @@ version: str = 'latest' # required by the version switcher
 ### Project Configuration #########################################################################
 ###################################################################################################
 
-needs_sphinx = '7.0.1'
-
 extensions = [
     # core extensions
     'sphinx.ext.mathjax',
@@ -29,9 +27,9 @@ extensions = [
     'IPython.sphinxext.ipython_directive',
     'IPython.sphinxext.ipython_console_highlighting',
     # Markdown support
-    'myst_parser', # do not enable separately if using myst_nb, compare https://github.com/executablebooks/MyST-NB/issues/421#issuecomment-1164427544
+    # 'myst_parser', # do not enable separately if using myst_nb, compare https://github.com/executablebooks/MyST-NB/issues/421#issuecomment-1164427544
     # Jupyter Notebook support
-    'nbsphinx',
+    'myst_nb',
     # API documentation support
     'autoapi',
     # responsive web component support
@@ -133,6 +131,10 @@ html_context = {
 ####################################################################################################
 ### Extension Configuration ########################################################################
 ####################################################################################################
+
+# myst-nb Configuration ################################################
+
+nb_execution_mode = "off"
 
 # linkcheck Configuration ###############################################
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-the-linkcheck-builder
