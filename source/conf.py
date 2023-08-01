@@ -203,7 +203,9 @@ autoapi_keep_files = False
 
 source_suffix = {
     '.rst': 'restructuredtext',
-    '.md': 'markdown'
+    '.md': 'myst-nb',
+    '.ipynb': 'myst-nb',
+    '.myst': 'myst-nb',
 }
 
 myst_enable_extensions = [
