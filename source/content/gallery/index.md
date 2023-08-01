@@ -1,25 +1,37 @@
 # Gallery
 
-## Visualizations
+## Data Import
 
-Download Test [](brightway-examples/visualization/graph_technosphere.ipynb) \
-Download Test Autolink ()[example.txt]
+::::{grid} 3
+
+:::{grid-item-card} [Importing Ecoinvent](brightway-examples/data_import/ecoinvent_import.ipynb)
+![thumbnail](brightway-examples/data_import/ecoinvent_import.png)
+:::
+
+:::{grid-item-card} Placeholder
+Placeholder
+:::
+
+:::{grid-item-card} Placeholder
+Placeholder
+:::
+
+::::
+
+
+## Visualizations
 
 ::::{grid} 3
 
 :::{grid-item-card} [Plotting Technosphere](brightway-examples/visualization/graph_technosphere.ipynb)
-Some subtitle
 ![thumbnail](brightway-examples/visualization/graph_technosphere.png)
 :::
 
-:::{grid-item-card}  Placeholder
-
+:::{grid-item-card} Placeholder
 Placeholder
-
 :::
 
-:::{grid-item-card}  Placeholder
-
+:::{grid-item-card} Placeholder
 Placeholder
 :::
 
